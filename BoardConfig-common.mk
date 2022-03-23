@@ -46,6 +46,7 @@ BOARD_KERNEL_CMDLINE += cma_sysfs.experimental=Y
 BOARD_KERNEL_CMDLINE += stack_depot_disable=off page_pinner=on
 BOARD_KERNEL_CMDLINE += swiotlb=noforce
 BOARD_BOOTCONFIG += androidboot.boot_devices=14700000.ufs
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
 TARGET_NO_BOOTLOADER := true
 TARGET_NO_RADIOIMAGE := true
