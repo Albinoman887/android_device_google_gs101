@@ -20,9 +20,6 @@ BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
 # Kernel
 TARGET_NO_KERNEL_OVERRIDE := true
 
-# Manifests
-DEVICE_PRODUCT_COMPATIBILITY_MATRIX_FILE += device/google/gs101/lineage_compatibility_matrix.xml
-
 # Enable chain partition for vendor.
 BOARD_AVB_VBMETA_VENDOR := vendor
 BOARD_AVB_VBMETA_VENDOR_KEY_PATH := external/avb/test/data/testkey_rsa2048.pem
