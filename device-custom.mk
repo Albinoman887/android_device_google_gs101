@@ -4,4 +4,4 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PACKAGE_OVERLAYS += device/google/gs101/overlay-lineage
+DEVICE_PACKAGE_OVERLAYS += device/google/gs101/overlay-custom
